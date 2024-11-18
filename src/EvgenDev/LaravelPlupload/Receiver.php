@@ -1,12 +1,12 @@
 <?php
 
-namespace EvgenDev\LaravelPlupload;
+namespace Fulgur0\LaravelPlupload;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use EvgenDev\LaravelPlupload\Filters\Extensions;
-use EvgenDev\LaravelPlupload\Filters\Filesize;
+use Fulgur0\LaravelPlupload\Filters\Extensions;
+use Fulgur0\LaravelPlupload\Filters\Filesize;
 
 class Receiver
 {

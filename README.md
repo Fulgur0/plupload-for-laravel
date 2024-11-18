@@ -10,7 +10,7 @@ Handeling chunked uploads.
 Install using composer 
 
 ```sh
-composer require evgen-dev/plupload-for-laravel
+composer require fulgur0/plupload-for-laravel
 ```
 
 Add the provider to `config/app.php`

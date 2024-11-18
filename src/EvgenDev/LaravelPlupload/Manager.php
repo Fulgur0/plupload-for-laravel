@@ -1,11 +1,11 @@
 <?php
 
-namespace EvgenDev\LaravelPlupload;
+namespace Fulgur0\LaravelPlupload;
 
 use Closure;
-use EvgenDev\LaravelPlupload\Filters\Extensions;
-use EvgenDev\LaravelPlupload\Filters\Filesize;
-use EvgenDev\LaravelPlupload\Receiver;
+use Fulgur0\LaravelPlupload\Filters\Extensions;
+use Fulgur0\LaravelPlupload\Filters\Filesize;
+use Fulgur0\LaravelPlupload\Receiver;
 use Illuminate\Http\Request;
 
 class Manager

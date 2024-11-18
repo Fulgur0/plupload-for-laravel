@@ -1,6 +1,6 @@
 <?php
 
-namespace EvgenDev\LaravelPlupload;
+namespace Fulgur0\LaravelPlupload;
 
 use Illuminate\Support\ServiceProvider;
 

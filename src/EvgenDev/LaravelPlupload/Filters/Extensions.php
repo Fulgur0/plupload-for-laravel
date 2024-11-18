@@ -1,6 +1,6 @@
 <?php
 
-    namespace EvgenDev\LaravelPlupload\Filters;
+    namespace Fulgur0\LaravelPlupload\Filters;
 
     class Extensions{
 

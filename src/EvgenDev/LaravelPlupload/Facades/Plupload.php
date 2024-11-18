@@ -1,6 +1,6 @@
 <?php
 
-namespace EvgenDev\LaravelPlupload\Facades;
+namespace Fulgur0\LaravelPlupload\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
