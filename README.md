@@ -17,7 +17,7 @@ Add the provider to `config/app.php`
 
 ```php
 'providers' => [
-    EvgenDev\LaravelPlupload\LaravelPluploadServiceProvider::class,
+    Fulgur0\LaravelPlupload\LaravelPluploadServiceProvider::class,
 ]
 ```
 
@@ -25,7 +25,7 @@ And the facade for short record if you want
 
 ```php
 'aliases' => array(
-    'Plupload' => EvgenDev\LaravelPlupload\Facades\Plupload::class,
+    'Plupload' => Fulgur0\LaravelPlupload\Facades\Plupload::class,
 ),
 ```
 
@@ -56,7 +56,7 @@ Route::post('/upload', function(){
 
 ### Limit uploading file size:
 ```php
-use EvgenDev\LaravelPlupload\Filters\Filesize;
+use Fulgur0\LaravelPlupload\Filters\Filesize;
 
 Route::post('/upload', function(){
     return Plupload::sizelimit(3, Filesize::FILE_SIZE_UNITS_MB)
@@ -81,7 +81,7 @@ Route::post('/upload', function()
 
 ### Limit uploading file size and files extensions:
 ```php
-use \EvgenDev\LaravelPlupload\Filters\Filesize;
+use \Fulgur0\LaravelPlupload\Filters\Filesize;
 
 Route::post('/upload', function()
 {
@@ -96,7 +96,7 @@ Route::post('/upload', function()
 
 ### Usage in controller
 ```php
-use EvgenDev\LaravelPlupload\Facades\Plupload;
+use Fulgur0\LaravelPlupload\Facades\Plupload;
 
 public function upload(Request $request){
     return Plupload::sizelimit(5, Filesize::FILE_SIZE_UNITS_MB)
